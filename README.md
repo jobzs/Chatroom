@@ -1,2 +1,2 @@
 # Chatroom
-Chat com websocket
+Chat desenvolvido em Java com Glassfish
