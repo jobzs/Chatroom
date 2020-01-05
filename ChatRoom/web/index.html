@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Chat</title>
+        <script src="websocket.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="StyleCSS.css">
+    </head>
+    <body>
+        
+        <div class="container">
+            <div class="card">
+                <textarea class="form-control form-control-lg" id="messagesTextArea" readonly="readonly" rows="10" cols="45"></textarea><br/>
+                <input type="text" class="form-control-sm" id="messageText" size="50" />
+                <div class="text-right">
+                <input type="button" class="btn-info btn-sm" value="Enviar" onclick="sendMessage();"/>
+                </div>
+            </div>
+        </div>
+        
+        
+    </body>
+</html>
